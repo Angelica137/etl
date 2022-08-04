@@ -13,4 +13,5 @@ values = {
 
 
 def test_return_vlue_of_a():
-    assert etl(values) == 1
+    v = {1: ["A"]}
+    assert etl(v) == {"A": 1}
